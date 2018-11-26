@@ -1,0 +1,43 @@
+
+@media(min-width: 576px) {
+    .col-sm {
+        width: 50%
+    }
+}
+
+@media(min-width: 768px) {
+    .col-sm {
+        width: 33%
+    }
+}
+
+@media(min-width: 992px) {
+    .col-sm {
+        width: 25%
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 14px ;
+    text-decoration: purple;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+}
